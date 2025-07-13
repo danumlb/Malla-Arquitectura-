@@ -1,0 +1,64 @@
+/* Estilo tipo Notion/Clean Girl Aesthetic */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff0f6;
+  color: #3d3d3d;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #d63384;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.semestre {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 5px solid #ffa8c5;
+  background-color: #ffe6f0;
+  border-radius: 12px;
+}
+
+.semestre h2 {
+  color: #c9184a;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.curso {
+  display: inline-block;
+  margin: 0.4rem;
+  padding: 1rem;
+  min-width: 220px;
+  text-align: center;
+  font-size: 15px;
+  background-color: #f7d6e0;
+  color: #5a5a5a;
+  border: 2px dashed #e89bb5;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+}
+
+.curso:hover {
+  background-color: #ffc2d1;
+  border-color: #ff8fa3;
+}
+
+.aprobado {
+  background-color: #d3d3d3 !important;
+  color: #888 !important;
+  border-style: solid;
+  text-decoration: line-through;
+  cursor: default;
+}
+
+.bloqueado {
+  background-color: #f0f0f0;
+  color: #bbb;
+  border-color: #ddd;
+  cursor: not-allowed;
+}

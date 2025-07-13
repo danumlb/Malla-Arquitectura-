@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Arquitectura</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Malla Académica – Arquitectura</h1>
+
+  <!-- Ciclo 1 -->
+  <div class="semestre" id="ciclo1">
+    <h2>Ciclo 1</h2>
+    <button class="curso" id="dibujo" onclick="aprobarCurso('dibujo')">
+      📘 Dibujo Arquitectónico<br>⏱️ 4 h/sem • 🎓3 créditos
+    </button>
+    <button class="curso" id="matematica" onclick="aprobarCurso('matematica')">
+      📘 Matemática Básica<br>⏱️ 3 h/sem • 🎓2 créditos
+    </button>
+  </div>
+
+  <!-- Ciclo 2 -->
+  <div class="semestre" id="ciclo2">
+    <h2>Ciclo 2</h2>
+    <button class="curso bloqueado" id="taller1" onclick="aprobarCurso('taller1')">
+      📘 Taller de Diseño I<br>⏱️ 5 h/sem • 🎓3 créditos
+    </button>
+    <button class="curso bloqueado" id="fisica" onclick="aprobarCurso('fisica')">
+      📘 Física I<br>⏱️ 3 h/sem • 🎓2 créditos
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
